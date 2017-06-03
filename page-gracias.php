@@ -3,7 +3,7 @@
 ====================
 PAGE - GRACIAS
 ====================
-@package eadic-theme
+@package javiergarval-theme
 */
 
 get_header(); ?>

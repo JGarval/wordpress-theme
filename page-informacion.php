@@ -3,7 +3,7 @@
 ====================
 PAGE - INFORMACION
 ====================
-@package eadic-theme
+@package javiergarval-theme
 */
 
 /*
@@ -40,17 +40,17 @@ get_header(); ?>
       <div class="panel-heading" role="tab" id="headingOne">
         <h4 class="panel-title">
           <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Sobre EADIC
+            Sobre javiergarval
           </a>
         </h4>
       </div>
       <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
         <div class="panel-body">
-          <p><b>EADIC</b> es una escuela técnica online, altamente especializada en los sectores de la <b>ingeniería, construcción e industrial</b> y enfocada en la actualización y desarrollo de profesionales y técnicos. Cuenta con un equipo humano multidisciplinar y experimentado en el empleo de las últimas tecnologías de la formación online. A este equipo se suma un cuadro de <b>más de 300 profesores asociados</b> provenientes del ámbito profesional, además de doctores, docentes universitarios, certificadores y expertos destacados, que acompañan al alumno en la proceso de aprendizaje técnico. La <b>Universidad Rey Juan Carlos y la UDIMA</b> (Universidad a Distancia de Madrid) colaboran con EADIC en el desarrollo de las maestrías, emitiendo sus títulos propios de Máster a los alumnos que superan con éxito el programa.
+          <p><b>javiergarval</b> es una escuela técnica online, altamente especializada en los sectores de la <b>ingeniería, construcción e industrial</b> y enfocada en la actualización y desarrollo de profesionales y técnicos. Cuenta con un equipo humano multidisciplinar y experimentado en el empleo de las últimas tecnologías de la formación online. A este equipo se suma un cuadro de <b>más de 300 profesores asociados</b> provenientes del ámbito profesional, además de doctores, docentes universitarios, certificadores y expertos destacados, que acompañan al alumno en la proceso de aprendizaje técnico. La <b>Universidad Rey Juan Carlos y la UDIMA</b> (Universidad a Distancia de Madrid) colaboran con javiergarval en el desarrollo de las maestrías, emitiendo sus títulos propios de Máster a los alumnos que superan con éxito el programa.
           <br><br>
           Fruto de nuestros esfuerzos por ofrecer un servicio de calidad, hemos conseguido <b>alianzas estratégicas a nivel internacional</b> que refuerzan nuestra oferta y nos permiten acometer el proceso formativo de empresas, instituciones y particulares de una manera novedosa, pero altamente solvente y profesional.
           <br><br>
-          Entre estas alianzas destaca, por su difusión y número de participantes beneficiados, la <b>Organización de los Estados Americanos (OEA)</b>, por medio de su Programa de Alianzas para la Educación y la Capacitación (PAEC), del que EADIC es miembro desde el pasado año 2013. Hasta la fecha, <b>más de 1000 Becas OEA-EADIC han sido concedidas</b> a técnicos y profesionales americanos.
+          Entre estas alianzas destaca, por su difusión y número de participantes beneficiados, la <b>Organización de los Estados Americanos (OEA)</b>, por medio de su Programa de Alianzas para la Educación y la Capacitación (PAEC), del que javiergarval es miembro desde el pasado año 2013. Hasta la fecha, <b>más de 1000 Becas OEA-javiergarval han sido concedidas</b> a técnicos y profesionales americanos.
           </p>
         </div><!-- /.panel-body -->
       </div><!-- /#collapseOne -->
@@ -61,7 +61,7 @@ get_header(); ?>
       <div class="panel-heading" role="tab" id="headingTwo">
         <h4 class="panel-title">
           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Sobre el Programa de Becas OEA-EADIC
+            Sobre el Programa de Becas OEA-javiergarval
           </a>
         </h4>
       </div>
@@ -71,7 +71,7 @@ get_header(); ?>
             <p style="padding:2%;">
             Uno de los objetivos es hacer llegar un tipo de formación que apuesta por la excelencia y la especialización técnica a aquellos sectores que más lo necesitan debido a los grandes proyectos que se están desarrollando y se van a poner en marcha en los países miembros de la OEA.
             <br><br>
-            Todos estos cursos que EADIC y la Universidad a Distancia de Madrid (UDIMA) proponen se imparten bajo una metodología online basada en la interacción con profesionales destacados del sector.
+            Todos estos cursos que javiergarval y la Universidad a Distancia de Madrid (UDIMA) proponen se imparten bajo una metodología online basada en la interacción con profesionales destacados del sector.
             </p>
           <h4 style="color:#8dc3df">Criterios de selección:</h4>
           <p>

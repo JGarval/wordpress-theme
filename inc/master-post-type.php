@@ -4,7 +4,7 @@
 	MASTER POST TYPE
 	====================
 
-	@package eadic-theme
+	@package javiergarval-theme
 */
 
 /*

@@ -3,24 +3,13 @@
 ====================
 SIDEBAR - FRONT
 ====================
-@package eadic-theme
+@package javiergarval-theme
 */
 
 require 'connect.php'; ?>
 
-<form class="form-horizontal" name="Formulario eadic-oea" method="post" accept-charset="utf-8">
-  <!--<input name="__vtrftk" value="sid:b4b9b0616af94ee761abef8f4d538938168efaa2,1456397610" type="hidden">
-  <input name="publicid" value="b06be784b690ac00c581561c6209f71f" type="hidden">
-  <input name="name" value="Formulario eadic-oea" type="hidden">
-  <input name="VTIGER_RECAPTCHA_PUBLIC_KEY" value="RECAPTCHA PUBLIC KEY FOR THIS DOMAIN" type="hidden">
-  <input name="leadsource" value="Formulario Web" value="Formulario Web" type="hidden">
-  <input name="label:Gestión_comercial" value="1. Solicitud informacion OEA" type="hidden">
-  <input name="label:Estado_de_la_gestión_telefónica" value="No contactado" type="hidden">
-  <input name="label:Campaña_Origen_del_suscriptor" value="Formulario_OEA_20161005" type="hidden">
-  <input name="label:Enlace_fuente" value="http://www.eadic-oea.com/wordpress" type="hidden">
-  <input name="label:Tipo_de_curso" value="M_Master" type="hidden">
-  <input name="leadstatus" value="Activo" type="hidden">
-  <input type="hidden" name="block_spam_bots" value="1" />-->
+<form class="form-horizontal" name="Formulario javiergarval-oea" method="post" accept-charset="utf-8">
+
   <div class="form-group">
     <h3 class="text-center">Contacta con nosotros</h3>
     <!-- Nombre -->
@@ -81,7 +70,7 @@ require 'connect.php'; ?>
           <option value="Brunei">Brunei</option>
           <option value="Bulgaria">Bulgaria</option>
           <option value="Burkina Faso">Burkina Faso</option>
-          <option value="Burundi">Burundi</opion>
+          <option value="Burundi">Burundi</option>
           <option value="Butan">Bután</option>
           <option value="Cabo Verde">Cabo Verde</option>
           <option value="Camboya">Camboya</option>
@@ -291,37 +280,7 @@ require 'connect.php'; ?>
       </div>
     </div>
     <!-- Cursos de Interés -->
-    <div class="form-group">
-      <div class="col-sm-12">
-        <select class="form-control" name="label:Curso_de_Interés" id="curso" required>
-          <option value="" selected="selected">Curso de interés...*</option>
-          <option value="Master en Diseno, Construccion y Mantenimiento de Carreteras_MCARRE" data-label:Codigo_Curso_Interés="MCARRE" >Máster en Diseño,Construcción y Mantenimiento de Carreteras</option>
-          <option value="Master en Calculo de Estructuras de Obras Civiles_MESTRU" data-label:Codigo_Curso_Interés="MESTRU">Máster en Cálculo de Estructuras de Obras Civiles</option>
-          <option value="Master en Infraestructuras Ferroviarias (Titulo Propio)_MIFFCC" data-label:Codigo_Curso_Interés="MIFFCC" >Máster en Infraestructuras Ferroviarias</option>
-          <option value="Master en Financiacion y Gestion de Infraestructuras_MFINGE" data-label:Codigo_Curso_Interés="MFINGE" >Máster en Financiación y Gestión de Infraestructuras</option>
-          <option value="Master en Direccion de Proyectos Internacionales - PMI_MDIPRO" data-label:Codigo_Curso_Interés="MDIPRO">Máster en Dirección de Proyectos Internacionales ? PMI®</option>
-          <option value="Master en Diseno, Construccion y Explotacion Obras Hidraulicas_MOOHH" data-label:Codigo_Curso_Interés="MOOHH">Máster en Diseño, Construcción y Explotación de Obras Hidráulicas</option>
-          <option value="Master Internacional en Trafico, Transportes y Seguridad Vial_MTTSEG " data-label:Codigo_Curso_Interés="MTTSEG">Máster Internacional en Tráfico, Transportes y Seguridad Vial </option>
-          <option value="Master Internacional en Ingenieria y Gestion Ambiental _MIAMB " data-label:Codigo_Curso_Interés="MIAMBI">Máster Internacional en Ingeniería y Gestión Ambiental  </option>
-          <option value="Master en Aeropuertos: Diseno, Construccion y Mantenimiento " data-label:Codigo_Curso_Interés="MAEROP">Máster en Aeropuertos: Diseño, Construcción y Mantenimiento   </option>
-          <option value="Master en Mineria. Planificacion y Gestion de Minas y Operaciones Mineras_MOPMIN" data-label:Codigo_Curso_Interés="MOPMIN">Máster en Minería. Planificación y Gestión de Minas y Operaciones Mineras</option>
-          <option value="Master en Petroleo y Gas: Prospeccion, Transformacion y Gestion_MPEYGA" data-label:Codigo_Curso_Interés="MPEYGA">Máster en Petróleo y Gas: Prospección, Transformación y Gestión </option>
-          <option value="Master en Gestion Integrada de la Calidad, la Seguridad y el Medio Ambiente_MGICSM" data-label:Codigo_Curso_Interés="MGICSM">Máster en Gestión integrada de la Calidad, la Seguridad y el Medio Abiente</option>
-          <option value="Master en BIM Management_MBIMMA" data-label:Codigo_Curso_Interés="MBIMMA">Máster en Bim Management</option>
-          <option value="Master en Logisitica y Transporte_MTRLOG" data-label:Codigo_Curso_Interés="MTRLOG">Máster en Logística y Transporte</option>
-          <option value="Master en Energias Renovables y Eficiencia Energetica_MERYEE" data-label:Codigo_Curso_Interés="MERYEE">Máster en Energías Renovables y Eficiencia Energética</option>
-          <option value="Master en Big Data y Business Intelligence_MBIGDA" data-label:Codigo_Curso_Interés="MBIGDA">Máster en Big Data y Business Intelligence</option>
-          <!--MASTER NUEVOS-->
-          <option value="Master en Planificacion, Construccion y Explotacion de Infraestructuras Ambientalmente Sostenibles (Titulo Propio)_MASOST" data-label:Codigo_Curso_Interés="MASOST">Máster en Planificación, Construcción y Explotación de Infraestructuras Ambientalmente Sostenibles</option>
-          <option value="Master en Diseno, Construccion y explotacion de puertos, costas y obras maritimas especiales_MPUERT" data-label:Codigo_Curso_Interés="MPUERT">Máster en Diseño, Construcción y explotación de puertos, costas y obras marítimas especiales</option>
-          <option value="Master en Electronica Industrial, Automatizacion y Control_MELECT" data-label:Codigo_Curso_Interés="MELECT">Máster en Electrónica Industrial, Automatización y Control</option>
-          <option value="Master en BIM Management en Infraestructura e ingenieria civil_MBIMCI" data-label:Codigo_Curso_Interés="MBIMCI">Máster en BIM Management en Infraestructura e ingeniería civil</option>
-          <option value="Master en Diseno y Construccion de instalaciones y plantas industriales_MPLAIN" data-label:Codigo_Curso_Interés="MPLAIN">Máster en Diseño y Construcción de instalaciones y plantas industriales</option>
-          <option value="Master en Construccion, mantenimiento y Explotacion de Metros, Tranvias y Ferrocarriles Urbanos_MTRANV" data-label:Codigo_Curso_Interés="MTRANV">Máster en Construcción, mantenimiento y Explotación de Metros, Tranvías y Ferrocarriles Urbanos</option>
-        </select>
-        <input type=hidden name="label:Codigo_Curso_Interés" id="Codigo_Curso_Interés" />
-      </div>
-    </div>
+
     <!-- Consulta -->
     <div class="form-group">
       <div class="col-sm-12">

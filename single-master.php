@@ -3,7 +3,7 @@
 ========================================
 SINGLE MASTER
 ========================================
-@package eadic-theme
+@package javiergarval-theme
 
 QUICK FUNCTIONS
 ========================================
@@ -21,7 +21,7 @@ the_title() – the title of the post or page
 the_time() – the time or date for the post or page. This can be customized using standard php date function formatting.
 */
 
-$url = 'http://www.eadic-oea.com/wordpress';
+$url = 'http://www.javiergarval-oea.com/wordpress';
 
 get_header();?>
 

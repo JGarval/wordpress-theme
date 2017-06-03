@@ -4,7 +4,7 @@
 	TEACHER POST TYPE
 	====================
 
-	@package eadic-theme
+	@package javiergarval-theme
 */
 
 /* 	
@@ -14,18 +14,18 @@
 add_action( 'init', 'custom_post_type_teacher' );
 function custom_post_type_teacher() {
 	$labels = array(
-		'name'					=> _x( 'Profesores', 'Post Type General Name', 'eadic-theme' ),
-		'singular_name'			=> _x( 'Profesor', 'Post Type Singular Name', 'eadic-theme' ),
-		'add_new'				=> __( 'Añadir nuevo', 'eadic-theme' ),
-		'add_new_item'			=> __( 'Añadir nuevo Profesor', 'eadic-theme' ),
-		'edit_item'				=> __( 'Editar Profesor', 'eadic-theme' ),
-		'new_item'				=> __( 'Nuevo Profesor', 'eadic-theme' ),
-		'view_item'				=> __( 'Ver Profesor', 'eadic-theme' ),
-		'search_items'			=> __( 'Buscar Profesores', 'eadic-theme' ),
-		'not_found'				=> __( 'No se han encontrado Profesores', 'eadic-theme' ),
-		'not_found_in_trash'	=> __( 'No se han encontrado Profesores en la Papelera', 'eadic-theme' ),
-		'parent_item_colon'		=> __( 'Profesores superiores', 'eadic-theme' ),
-		'all_items'				=> __( 'Todos los Profesores', 'eadic-theme' ),
+		'name'					=> _x( 'Profesores', 'Post Type General Name', 'javiergarval-theme' ),
+		'singular_name'			=> _x( 'Profesor', 'Post Type Singular Name', 'javiergarval-theme' ),
+		'add_new'				=> __( 'Añadir nuevo', 'javiergarval-theme' ),
+		'add_new_item'			=> __( 'Añadir nuevo Profesor', 'javiergarval-theme' ),
+		'edit_item'				=> __( 'Editar Profesor', 'javiergarval-theme' ),
+		'new_item'				=> __( 'Nuevo Profesor', 'javiergarval-theme' ),
+		'view_item'				=> __( 'Ver Profesor', 'javiergarval-theme' ),
+		'search_items'			=> __( 'Buscar Profesores', 'javiergarval-theme' ),
+		'not_found'				=> __( 'No se han encontrado Profesores', 'javiergarval-theme' ),
+		'not_found_in_trash'	=> __( 'No se han encontrado Profesores en la Papelera', 'javiergarval-theme' ),
+		'parent_item_colon'		=> __( 'Profesores superiores', 'javiergarval-theme' ),
+		'all_items'				=> __( 'Todos los Profesores', 'javiergarval-theme' ),
 		//'archives'				=> 
 		//'insert_into_item'		=> 
 		//'uploaded_to_this_item'	=> 

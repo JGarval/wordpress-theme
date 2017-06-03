@@ -3,10 +3,10 @@
 ====================
 PAGE - CUPON
 ====================
-@package eadic-theme
+@package javiergarval-theme
 */
 
-$url = 'http://www.eadic-oea.com/wordpress';
+$url = 'http://www.javiergarval-oea.com/wordpress';
 
 // 1. Obtenemos todos los nombres de los cupones.
 // ============================================================

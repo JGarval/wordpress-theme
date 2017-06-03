@@ -3,123 +3,123 @@
 ====================
 INDEX
 ====================
-@package eadic-theme
+@package javiergarval-theme
 */
 
-$url = 'http://www.eadic-oea.com/wordpress';
+$url = 'http://www.javiergarval.com/wordpress';
 
 // TODO: Reemplazar por arrays y hacer foreach
-// Obtenemos qué zonas se han activado para mostrarse en el panel de administración de EADIC.
-$eadic__general_banner = esc_attr( get_option( 'eadic__general-banner' ) );
-$eadic__general_phases = esc_attr( get_option( 'eadic__general-phases' ) );
-$eadic__general_about = esc_attr( get_option( 'eadic__general-about' ) );
-$eadic__general_category = esc_attr( get_option( 'eadic__general-category' ) );
-$eadic__general_metodology = esc_attr( get_option( 'eadic__general-metodology' ) );
-$eadic__general_testimony = esc_attr( get_option( 'eadic__general-testimony' ) );
-$eadic__general_supporter = esc_attr( get_option( 'eadic__general-supporter' ) );
+// Obtenemos qué zonas se han activado para mostrarse en el panel de administración de javiergarval.
+$javiergarval__general_banner = esc_attr( get_option( 'javiergarval__general-banner' ) );
+$javiergarval__general_phases = esc_attr( get_option( 'javiergarval__general-phases' ) );
+$javiergarval__general_about = esc_attr( get_option( 'javiergarval__general-about' ) );
+$javiergarval__general_category = esc_attr( get_option( 'javiergarval__general-category' ) );
+$javiergarval__general_metodology = esc_attr( get_option( 'javiergarval__general-metodology' ) );
+$javiergarval__general_testimony = esc_attr( get_option( 'javiergarval__general-testimony' ) );
+$javiergarval__general_supporter = esc_attr( get_option( 'javiergarval__general-supporter' ) );
 
 // CONTENT
 // Phases
 // Título
-$eadic__content_phases_title_1 = esc_attr( get_option( 'eadic__content-phases-title-1' ) );
-$eadic__content_phases_title_2 = esc_attr( get_option( 'eadic__content-phases-title-2' ) );
-$eadic__content_phases_title_3 = esc_attr( get_option( 'eadic__content-phases-title-3' ) );
-$eadic__content_phases_title_4 = esc_attr( get_option( 'eadic__content-phases-title-4' ) );
-$eadic__content_phases_title_5 = esc_attr( get_option( 'eadic__content-phases-title-5' ) );
+$javiergarval__content_phases_title_1 = esc_attr( get_option( 'javiergarval__content-phases-title-1' ) );
+$javiergarval__content_phases_title_2 = esc_attr( get_option( 'javiergarval__content-phases-title-2' ) );
+$javiergarval__content_phases_title_3 = esc_attr( get_option( 'javiergarval__content-phases-title-3' ) );
+$javiergarval__content_phases_title_4 = esc_attr( get_option( 'javiergarval__content-phases-title-4' ) );
+$javiergarval__content_phases_title_5 = esc_attr( get_option( 'javiergarval__content-phases-title-5' ) );
 // Contenido
-$eadic__content_phases_content_1 = esc_attr( get_option( 'eadic__content-phases-content-1' ) );
-$eadic__content_phases_content_2 = esc_attr( get_option( 'eadic__content-phases-content-2' ) );
-$eadic__content_phases_content_3 = esc_attr( get_option( 'eadic__content-phases-content-3' ) );
-$eadic__content_phases_content_4 = esc_attr( get_option( 'eadic__content-phases-content-4' ) );
-$eadic__content_phases_content_5 = esc_attr( get_option( 'eadic__content-phases-content-5' ) );
+$javiergarval__content_phases_content_1 = esc_attr( get_option( 'javiergarval__content-phases-content-1' ) );
+$javiergarval__content_phases_content_2 = esc_attr( get_option( 'javiergarval__content-phases-content-2' ) );
+$javiergarval__content_phases_content_3 = esc_attr( get_option( 'javiergarval__content-phases-content-3' ) );
+$javiergarval__content_phases_content_4 = esc_attr( get_option( 'javiergarval__content-phases-content-4' ) );
+$javiergarval__content_phases_content_5 = esc_attr( get_option( 'javiergarval__content-phases-content-5' ) );
 
 // About Us
 // Título
-$eadic__content_about_title_1 = esc_attr( get_option( 'eadic__content-about-title-1' ) );
-$eadic__content_about_title_2 = esc_attr( get_option( 'eadic__content-about-title-2' ) );
-$eadic__content_about_title_3 = esc_attr( get_option( 'eadic__content-about-title-3' ) );
-$eadic__content_about_title_4 = esc_attr( get_option( 'eadic__content-about-title-4' ) );
-$eadic__content_about_title_5 = esc_attr( get_option( 'eadic__content-about-title-5' ) );
+$javiergarval__content_about_title_1 = esc_attr( get_option( 'javiergarval__content-about-title-1' ) );
+$javiergarval__content_about_title_2 = esc_attr( get_option( 'javiergarval__content-about-title-2' ) );
+$javiergarval__content_about_title_3 = esc_attr( get_option( 'javiergarval__content-about-title-3' ) );
+$javiergarval__content_about_title_4 = esc_attr( get_option( 'javiergarval__content-about-title-4' ) );
+$javiergarval__content_about_title_5 = esc_attr( get_option( 'javiergarval__content-about-title-5' ) );
 // Contenido
-$eadic__content_about_content_1 = esc_attr( get_option( 'eadic__content-about-content-1' ) );
-$eadic__content_about_content_2 = esc_attr( get_option( 'eadic__content-about-content-2' ) );
-$eadic__content_about_content_3 = esc_attr( get_option( 'eadic__content-about-content-3' ) );
-$eadic__content_about_content_4 = esc_attr( get_option( 'eadic__content-about-content-4' ) );
-$eadic__content_about_content_5 = esc_attr( get_option( 'eadic__content-about-content-5' ) );
+$javiergarval__content_about_content_1 = esc_attr( get_option( 'javiergarval__content-about-content-1' ) );
+$javiergarval__content_about_content_2 = esc_attr( get_option( 'javiergarval__content-about-content-2' ) );
+$javiergarval__content_about_content_3 = esc_attr( get_option( 'javiergarval__content-about-content-3' ) );
+$javiergarval__content_about_content_4 = esc_attr( get_option( 'javiergarval__content-about-content-4' ) );
+$javiergarval__content_about_content_5 = esc_attr( get_option( 'javiergarval__content-about-content-5' ) );
 // Contenido
-$eadic__content_about_image_1 = esc_attr( get_option( 'eadic__content-about-image-1' ) );
-$eadic__content_about_image_2 = esc_attr( get_option( 'eadic__content-about-image-2' ) );
-$eadic__content_about_image_3 = esc_attr( get_option( 'eadic__content-about-image-3' ) );
-$eadic__content_about_image_4 = esc_attr( get_option( 'eadic__content-about-image-4' ) );
-$eadic__content_about_image_5 = esc_attr( get_option( 'eadic__content-about-image-5' ) );
+$javiergarval__content_about_image_1 = esc_attr( get_option( 'javiergarval__content-about-image-1' ) );
+$javiergarval__content_about_image_2 = esc_attr( get_option( 'javiergarval__content-about-image-2' ) );
+$javiergarval__content_about_image_3 = esc_attr( get_option( 'javiergarval__content-about-image-3' ) );
+$javiergarval__content_about_image_4 = esc_attr( get_option( 'javiergarval__content-about-image-4' ) );
+$javiergarval__content_about_image_5 = esc_attr( get_option( 'javiergarval__content-about-image-5' ) );
 
 // Categorías
 // Título
-$eadic__content_category_title_1 = esc_attr( get_option( 'eadic__content-category-title-1' ) );
-$eadic__content_category_title_2 = esc_attr( get_option( 'eadic__content-category-title-2' ) );
-$eadic__content_category_title_3 = esc_attr( get_option( 'eadic__content-category-title-3' ) );
-$eadic__content_category_title_4 = esc_attr( get_option( 'eadic__content-category-title-4' ) );
-$eadic__content_category_title_5 = esc_attr( get_option( 'eadic__content-category-title-5' ) );
+$javiergarval__content_category_title_1 = esc_attr( get_option( 'javiergarval__content-category-title-1' ) );
+$javiergarval__content_category_title_2 = esc_attr( get_option( 'javiergarval__content-category-title-2' ) );
+$javiergarval__content_category_title_3 = esc_attr( get_option( 'javiergarval__content-category-title-3' ) );
+$javiergarval__content_category_title_4 = esc_attr( get_option( 'javiergarval__content-category-title-4' ) );
+$javiergarval__content_category_title_5 = esc_attr( get_option( 'javiergarval__content-category-title-5' ) );
 // Contenido
-$eadic__content_category_content_1 = esc_attr( get_option( 'eadic__content-category-content-1' ) );
-$eadic__content_category_content_2 = esc_attr( get_option( 'eadic__content-category-content-2' ) );
-$eadic__content_category_content_3 = esc_attr( get_option( 'eadic__content-category-content-3' ) );
-$eadic__content_category_content_4 = esc_attr( get_option( 'eadic__content-category-content-4' ) );
-$eadic__content_category_content_5 = esc_attr( get_option( 'eadic__content-category-content-5' ) );
+$javiergarval__content_category_content_1 = esc_attr( get_option( 'javiergarval__content-category-content-1' ) );
+$javiergarval__content_category_content_2 = esc_attr( get_option( 'javiergarval__content-category-content-2' ) );
+$javiergarval__content_category_content_3 = esc_attr( get_option( 'javiergarval__content-category-content-3' ) );
+$javiergarval__content_category_content_4 = esc_attr( get_option( 'javiergarval__content-category-content-4' ) );
+$javiergarval__content_category_content_5 = esc_attr( get_option( 'javiergarval__content-category-content-5' ) );
 
 // Metdología
 // Título
-$eadic__content_metodology_title_1 = esc_attr( get_option( 'eadic__content-metodology-title-1' ) );
-$eadic__content_metodology_title_2 = esc_attr( get_option( 'eadic__content-metodology-title-2' ) );
-$eadic__content_metodology_title_3 = esc_attr( get_option( 'eadic__content-metodology-title-3' ) );
-$eadic__content_metodology_title_4 = esc_attr( get_option( 'eadic__content-metodology-title-4' ) );
-$eadic__content_metodology_title_5 = esc_attr( get_option( 'eadic__content-metodology-title-5' ) );
+$javiergarval__content_metodology_title_1 = esc_attr( get_option( 'javiergarval__content-metodology-title-1' ) );
+$javiergarval__content_metodology_title_2 = esc_attr( get_option( 'javiergarval__content-metodology-title-2' ) );
+$javiergarval__content_metodology_title_3 = esc_attr( get_option( 'javiergarval__content-metodology-title-3' ) );
+$javiergarval__content_metodology_title_4 = esc_attr( get_option( 'javiergarval__content-metodology-title-4' ) );
+$javiergarval__content_metodology_title_5 = esc_attr( get_option( 'javiergarval__content-metodology-title-5' ) );
 // Contenido
-$eadic__content_metodology_content_1 = esc_attr( get_option( 'eadic__content-metodology-content-1' ) );
-$eadic__content_metodology_content_2 = esc_attr( get_option( 'eadic__content-metodology-content-2' ) );
-$eadic__content_metodology_content_3 = esc_attr( get_option( 'eadic__content-metodology-content-3' ) );
-$eadic__content_metodology_content_4 = esc_attr( get_option( 'eadic__content-metodology-content-4' ) );
-$eadic__content_metodology_content_5 = esc_attr( get_option( 'eadic__content-metodology-content-5' ) );
+$javiergarval__content_metodology_content_1 = esc_attr( get_option( 'javiergarval__content-metodology-content-1' ) );
+$javiergarval__content_metodology_content_2 = esc_attr( get_option( 'javiergarval__content-metodology-content-2' ) );
+$javiergarval__content_metodology_content_3 = esc_attr( get_option( 'javiergarval__content-metodology-content-3' ) );
+$javiergarval__content_metodology_content_4 = esc_attr( get_option( 'javiergarval__content-metodology-content-4' ) );
+$javiergarval__content_metodology_content_5 = esc_attr( get_option( 'javiergarval__content-metodology-content-5' ) );
 
 // Testimonios
 // Autor
-$eadic__content_testimony_author_1 = esc_attr( get_option( 'eadic__content-testimony-author-1' ) );
-$eadic__content_testimony_author_2 = esc_attr( get_option( 'eadic__content-testimony-author-2' ) );
-$eadic__content_testimony_author_3 = esc_attr( get_option( 'eadic__content-testimony-author-3' ) );
+$javiergarval__content_testimony_author_1 = esc_attr( get_option( 'javiergarval__content-testimony-author-1' ) );
+$javiergarval__content_testimony_author_2 = esc_attr( get_option( 'javiergarval__content-testimony-author-2' ) );
+$javiergarval__content_testimony_author_3 = esc_attr( get_option( 'javiergarval__content-testimony-author-3' ) );
 // Contenido
-$eadic__content_testimony_content_1 = esc_attr( get_option( 'eadic__content-testimony-content-1' ) );
-$eadic__content_testimony_content_2 = esc_attr( get_option( 'eadic__content-testimony-content-2' ) );
-$eadic__content_testimony_content_3 = esc_attr( get_option( 'eadic__content-testimony-content-3' ) );
+$javiergarval__content_testimony_content_1 = esc_attr( get_option( 'javiergarval__content-testimony-content-1' ) );
+$javiergarval__content_testimony_content_2 = esc_attr( get_option( 'javiergarval__content-testimony-content-2' ) );
+$javiergarval__content_testimony_content_3 = esc_attr( get_option( 'javiergarval__content-testimony-content-3' ) );
 // Media
-$eadic__content_testimony_media_1 = esc_attr( get_option( 'eadic__content-testimony-media-1' ) );
-$eadic__content_testimony_media_2 = esc_attr( get_option( 'eadic__content-testimony-media-2' ) );
-$eadic__content_testimony_media_3 = esc_attr( get_option( 'eadic__content-testimony-media-3' ) );
+$javiergarval__content_testimony_media_1 = esc_attr( get_option( 'javiergarval__content-testimony-media-1' ) );
+$javiergarval__content_testimony_media_2 = esc_attr( get_option( 'javiergarval__content-testimony-media-2' ) );
+$javiergarval__content_testimony_media_3 = esc_attr( get_option( 'javiergarval__content-testimony-media-3' ) );
 
 // Colaboradores
-$eadic__content_supporter_1 = esc_attr( get_option( 'eadic__content-supporter-1' ) );
-$eadic__content_supporter_2 = esc_attr( get_option( 'eadic__content-supporter-2' ) );
-$eadic__content_supporter_3 = esc_attr( get_option( 'eadic__content-supporter-3' ) );
-$eadic__content_supporter_4 = esc_attr( get_option( 'eadic__content-supporter-4' ) );
-$eadic__content_supporter_5 = esc_attr( get_option( 'eadic__content-supporter-5' ) );
+$javiergarval__content_supporter_1 = esc_attr( get_option( 'javiergarval__content-supporter-1' ) );
+$javiergarval__content_supporter_2 = esc_attr( get_option( 'javiergarval__content-supporter-2' ) );
+$javiergarval__content_supporter_3 = esc_attr( get_option( 'javiergarval__content-supporter-3' ) );
+$javiergarval__content_supporter_4 = esc_attr( get_option( 'javiergarval__content-supporter-4' ) );
+$javiergarval__content_supporter_5 = esc_attr( get_option( 'javiergarval__content-supporter-5' ) );
 
 // FOOTER
-$eadic__footer_facebook = esc_attr( get_option( 'eadic__footer-facebook' ) );
-$eadic__footer_twitter = esc_attr( get_option( 'eadic__footer-twitter' ) );
-$eadic__footer_linkedin = esc_attr( get_option( 'eadic__footer-linkedin' ) );
-$eadic__footer_youtube = esc_attr( get_option( 'eadic__footer-youtube' ) );
-$eadic__footer_vimeo = esc_attr( get_option( 'eadic__footer-vimeo' ) );
+$javiergarval__footer_facebook = esc_attr( get_option( 'javiergarval__footer-facebook' ) );
+$javiergarval__footer_twitter = esc_attr( get_option( 'javiergarval__footer-twitter' ) );
+$javiergarval__footer_linkedin = esc_attr( get_option( 'javiergarval__footer-linkedin' ) );
+$javiergarval__footer_youtube = esc_attr( get_option( 'javiergarval__footer-youtube' ) );
+$javiergarval__footer_vimeo = esc_attr( get_option( 'javiergarval__footer-vimeo' ) );
 
-$eadic__footer_copyright = esc_attr( get_option( 'eadic__footer-copyright' ) );
-$eadic__footer_address = esc_attr( get_option( 'eadic__footer-address' ) );
+$javiergarval__footer_copyright = esc_attr( get_option( 'javiergarval__footer-copyright' ) );
+$javiergarval__footer_address = esc_attr( get_option( 'javiergarval__footer-address' ) );
 
-$eadic__footer_column_title_1 = esc_attr( get_option( 'eadic__footer-column-title-1' ) );
-$eadic__footer_column_content_1 = esc_attr( get_option( 'eadic__footer-column-content-1' ) );
-$eadic__footer_column_title_2 = esc_attr( get_option( 'eadic__footer-column-title-2' ) );
-$eadic__footer_column_content_2 = esc_attr( get_option( 'eadic__footer-column-content-2' ) );
-$eadic__footer_column_title_3 = esc_attr( get_option( 'eadic__footer-column-title-3' ) );
-$eadic__footer_column_content_3 = esc_attr( get_option( 'eadic__footer-column-content-3' ) );
-$eadic__footer_column_title_4 = esc_attr( get_option( 'eadic__footer-column-title-4' ) );
-$eadic__footer_column_content_4 = esc_attr( get_option( 'eadic__footer-column-content-4' ) );
+$javiergarval__footer_column_title_1 = esc_attr( get_option( 'javiergarval__footer-column-title-1' ) );
+$javiergarval__footer_column_content_1 = esc_attr( get_option( 'javiergarval__footer-column-content-1' ) );
+$javiergarval__footer_column_title_2 = esc_attr( get_option( 'javiergarval__footer-column-title-2' ) );
+$javiergarval__footer_column_content_2 = esc_attr( get_option( 'javiergarval__footer-column-content-2' ) );
+$javiergarval__footer_column_title_3 = esc_attr( get_option( 'javiergarval__footer-column-title-3' ) );
+$javiergarval__footer_column_content_3 = esc_attr( get_option( 'javiergarval__footer-column-content-3' ) );
+$javiergarval__footer_column_title_4 = esc_attr( get_option( 'javiergarval__footer-column-title-4' ) );
+$javiergarval__footer_column_content_4 = esc_attr( get_option( 'javiergarval__footer-column-content-4' ) );
 
 get_header(); ?>
 
@@ -192,8 +192,8 @@ Scholarship Phases
 						</div><!-- /about__img-circle -->
 
 						<div class="caption">
-							<h3><?php print $eadic__content_phases_title_1; ?></h3>
-							<p style="font-size:18px;font-family: 'Roboto', sans-serif;font-weight: 400;"><?php print $eadic__content_phases_content_1; ?></p>
+							<h3><?php print $javiergarval__content_phases_title_1; ?></h3>
+							<p style="font-size:18px;font-family: 'Roboto', sans-serif;font-weight: 400;"><?php print $javiergarval__content_phases_content_1; ?></p>
 						</div>
 
 					</div><!-- /about__thumbnail -->
@@ -207,8 +207,8 @@ Scholarship Phases
 
 						<div class="caption">
 
-							<h3><?php print $eadic__content_phases_title_2; ?></h3>
-							<p style="font-size:18px;font-family: 'Roboto', sans-serif;font-weight: 400;"><?php print $eadic__content_phases_content_2; ?></p>
+							<h3><?php print $javiergarval__content_phases_title_2; ?></h3>
+							<p style="font-size:18px;font-family: 'Roboto', sans-serif;font-weight: 400;"><?php print $javiergarval__content_phases_content_2; ?></p>
 						</div>
 
 					</div><!-- /about__thumbnail -->
@@ -222,8 +222,8 @@ Scholarship Phases
 
 						<div class="caption">
 
-							<h3><?php print $eadic__content_phases_title_3; ?></h3>
-							<p style="font-size:18px;font-family: 'Roboto', sans-serif;font-weight: 400;"><?php print $eadic__content_phases_content_3; ?></p>
+							<h3><?php print $javiergarval__content_phases_title_3; ?></h3>
+							<p style="font-size:18px;font-family: 'Roboto', sans-serif;font-weight: 400;"><?php print $javiergarval__content_phases_content_3; ?></p>
 						</div>
 
 					</div><!-- /about__thumbnail -->
@@ -237,8 +237,8 @@ Scholarship Phases
 
 						<div class="caption">
 
-							<h3><?php print $eadic__content_phases_title_4; ?></h3>
-							<p style="font-size:18px;font-family: 'Roboto', sans-serif;font-weight: 400;"><?php print $eadic__content_phases_content_4; ?></p>
+							<h3><?php print $javiergarval__content_phases_title_4; ?></h3>
+							<p style="font-size:18px;font-family: 'Roboto', sans-serif;font-weight: 400;"><?php print $javiergarval__content_phases_content_4; ?></p>
 						</div>
 
 					</div><!-- /about__thumbnail -->
@@ -256,24 +256,24 @@ Admission Form Button
 ========================================
 -->
 <div class="container content-form-container text-center">
-	<a class="btn btn-primary btn-lg" href="http://www.eadic-oea.com/preinscripcion-oea/index.html" target="_blank" role="button">Formulario de Solicitud de Admisión</a>
+	<a class="btn btn-primary btn-lg" href="http://www.javiergarval-oea.com/preinscripcion-oea/index.html" target="_blank" role="button">Formulario de Solicitud de Admisión</a>
 </div><!-- /content-form-container -->
 
 <div class="clearfix"></div>
 
 <!--
-About EADIC
+About javiergarval
 ========================================
 -->
-<!-- Título Sobre EADIC -->
-<?php if ($eadic__general_about) { ?>
+<!-- Título Sobre javiergarval -->
+<?php if ($javiergarval__general_about) { ?>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-3">
 			<span class="line"></span>
 		</div>
 		<div class="col-xs-6">
-			<h2 class="about__title text-center">¿Por qué tu Maestría en EADIC?</h2>
+			<h2 class="about__title text-center">¿Por qué tu Maestría en javiergarval?</h2>
 		</div>
 		<div class="col-xs-3 ">
 			<span class="line"></span>
@@ -289,10 +289,10 @@ About EADIC
 			<div class="col-md-2 col-md-offset-1 content-about-container-column">
 
 					<div class="thumbnail about__thumbnail">
-						<img src="<?php print get_template_directory_uri().'/images/about/about-eadic-1.svg' ?>" alt="" style="height: 200px" />
+						<img src="<?php print get_template_directory_uri().'/images/about/about-javiergarval-1.svg' ?>" alt="" style="height: 200px" />
 						<div class="caption">
 
-							<p class="about__thumbnail-content"><?php print $eadic__content_about_content_1; ?></p>
+							<p class="about__thumbnail-content"><?php print $javiergarval__content_about_content_1; ?></p>
 						</div>
 					</div><!-- /.about__thumbnail -->
 				</a>
@@ -302,10 +302,10 @@ About EADIC
 			<div class="col-md-2 content-about-container-column">
 
 					<div class="thumbnail about__thumbnail">
-						<img src="<?php print get_template_directory_uri().'/images/about/about-eadic-2.svg' ?>" alt="" style="height: 200px" />
+						<img src="<?php print get_template_directory_uri().'/images/about/about-javiergarval-2.svg' ?>" alt="" style="height: 200px" />
 						<div class="caption">
 
-							<p class="about__thumbnail-content"><?php print $eadic__content_about_content_2; ?></p>
+							<p class="about__thumbnail-content"><?php print $javiergarval__content_about_content_2; ?></p>
 						</div>
 					</div><!-- /about__thumbnail -->
 				</a>
@@ -315,10 +315,10 @@ About EADIC
 			<div class="col-md-2 content-about-container-column">
 
 					<div class="thumbnail about__thumbnail">
-						<img src="<?php print get_template_directory_uri().'/images/about/about-eadic-3.svg' ?>" alt="" style="height: 200px" />
+						<img src="<?php print get_template_directory_uri().'/images/about/about-javiergarval-3.svg' ?>" alt="" style="height: 200px" />
 						<div class="caption">
 
-							<p class="about__thumbnail-content"><?php print $eadic__content_about_content_3; ?></p>
+							<p class="about__thumbnail-content"><?php print $javiergarval__content_about_content_3; ?></p>
 						</div>
 					</div><!-- /about__thumbnail -->
 				</a>
@@ -328,10 +328,10 @@ About EADIC
 			<div class="col-md-2 content-about-container-column">
 
 					<div class="thumbnail about__thumbnail">
-						<img src="<?php print get_template_directory_uri().'/images/about/about-eadic-4.svg' ?>" alt="" style="height: 200px" />
+						<img src="<?php print get_template_directory_uri().'/images/about/about-javiergarval-4.svg' ?>" alt="" style="height: 200px" />
 						<div class="caption">
 
-							<p class="about__thumbnail-content"><?php print $eadic__content_about_content_4; ?></p>
+							<p class="about__thumbnail-content"><?php print $javiergarval__content_about_content_4; ?></p>
 						</div>
 					</div><!-- /about__thumbnail -->
 				</a>
@@ -341,10 +341,10 @@ About EADIC
 			<div class="col-md-2 content-about-container-column">
 
 					<div class="thumbnail about__thumbnail">
-						<img src="<?php print get_template_directory_uri().'/images/about/about-eadic-5.svg' ?>" alt="" style="height: 200px" />
+						<img src="<?php print get_template_directory_uri().'/images/about/about-javiergarval-5.svg' ?>" alt="" style="height: 200px" />
 						<div class="caption">
 
-							<p class="about__thumbnail-content"><?php print $eadic__content_about_content_5; ?></p>
+							<p class="about__thumbnail-content"><?php print $javiergarval__content_about_content_5; ?></p>
 						</div>
 					</div><!-- /.about__thumbnail -->
 				</a>
@@ -361,7 +361,7 @@ About EADIC
 Categories
 ========================================
 -->
-<?php if ($eadic__general_category) { ?>
+<?php if ($javiergarval__general_category) { ?>
 <!-- Título Áreas Formativas -->
 <!-- <div class="container-fluid">
 	<div class="row">
@@ -392,7 +392,7 @@ Categories
 						<img src="<?php print get_template_directory_uri().'/images/icons/ingenieria-civil-e-infraestructuras.svg' ?>" alt="" />
 					</div><!-- /category__img-circle -->
 					<div class="caption">
-						<h3><?php print $eadic__content_category_title_1; ?></h3>
+						<h3><?php print $javiergarval__content_category_title_1; ?></h3>
 					</div>
 				</div><!-- /category__thumbnail -->
 			</a>
@@ -406,7 +406,7 @@ Categories
 						<img src="<?php print get_template_directory_uri().'/images/icons/arquitectura-y-edificacion.svg' ?>" alt="" />
 					</div><!-- /category__img-circle -->
 					<div class="caption">
-						<h3><?php print $eadic__content_category_title_2; ?></h3>
+						<h3><?php print $javiergarval__content_category_title_2; ?></h3>
 					</div>
 				</div><!-- /category__thumbnail -->
 			</a>
@@ -420,7 +420,7 @@ Categories
 						<img src="<?php print get_template_directory_uri().'/images/icons/gestion-proyectos-e-infraestructuras.svg' ?>" alt="" />
 					</div><!-- /category__img-circle -->
 					<div class="caption">
-						<h3><?php print $eadic__content_category_title_3; ?></h3>
+						<h3><?php print $javiergarval__content_category_title_3; ?></h3>
 					</div>
 				</div><!-- /category__thumbnail -->
 			</a>
@@ -434,7 +434,7 @@ Categories
 						<img src="<?php print get_template_directory_uri().'/images/icons/agua-energia-y-medio-ambiente.svg' ?>" alt="" />
 					</div><!-- /category__img-circle -->
 					<div class="caption">
-						<h3><?php print $eadic__content_category_title_4; ?></h3>
+						<h3><?php print $javiergarval__content_category_title_4; ?></h3>
 					</div>
 				</div><!-- /category__thumbnail -->
 			</a>
@@ -448,7 +448,7 @@ Categories
 						<img src="<?php print get_template_directory_uri().'/images/icons/informatica-y-telecomunicaciones.svg' ?>" alt="" />
 					</div><!-- /category__img-circle -->
 					<div class="caption">
-						<h3><?php print $eadic__content_category_title_5; ?></h3>
+						<h3><?php print $javiergarval__content_category_title_5; ?></h3>
 					</div>
 				</div><!-- /category__thumbnail -->
 			</a>
@@ -464,7 +464,7 @@ Categories
 Metodology
 ========================================
 -->
-<?php if ($eadic__general_metodology) { ?>
+<?php if ($javiergarval__general_metodology) { ?>
 <!-- <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-3">
@@ -497,15 +497,15 @@ Metodology
 Testimonies
 ========================================
 -->
-<!-- Título Alumnos de EADIC -->
-<?php if ($eadic__general_testimony) { ?>
+<!-- Título Alumnos de javiergarval -->
+<?php if ($javiergarval__general_testimony) { ?>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-3">
 			<span class="line"></span>
 		</div>
 		<div class="col-xs-6">
-			<h2 class="testimony__title text-center">Alumnos de EADIC</h2>
+			<h2 class="testimony__title text-center">Alumnos de javiergarval</h2>
 		</div>
 		<div class="col-xs-3 ">
 			<span class="line"></span>
@@ -518,7 +518,7 @@ Testimonies
 	<div class="row testimony__row">
 		<div class="col-md-5 testimony__video">
 			<div class="embed-responsive embed-responsive-16by9">
-				<div class="youtube-player" data-id="<?php print $eadic__content_testimony_media_1 ?>"></div>
+				<div class="youtube-player" data-id="<?php print $javiergarval__content_testimony_media_1 ?>"></div>
 				<script>
 			    document.addEventListener("DOMContentLoaded",
 			        function() {
@@ -610,8 +610,8 @@ Testimonies
 		</div><!-- /.testimony__video -->
 		<div class="col-md-7 testimony__container" style="margin-top:20px;">
 			<blockquote>
-			  <p><?php  print '¨'.$eadic__content_testimony_content_1.'¨' ?></p>
-			  <footer><cite title="Source Title"><?php print $eadic__content_testimony_author_1 ?></cite></footer>
+			  <p><?php  print '¨'.$javiergarval__content_testimony_content_1.'¨' ?></p>
+			  <footer><cite title="Source Title"><?php print $javiergarval__content_testimony_author_1 ?></cite></footer>
 			</blockquote>
 		</div><!-- /.testimony__container -->
 	</div><!-- /.testimony__row -->
@@ -624,7 +624,7 @@ Testimonies
 Supporters
 ========================================
 -->
-<?php if ($eadic__general_supporter) { ?>
+<?php if ($javiergarval__general_supporter) { ?>
 <!-- Título -->
 <!--
 <div class="container-fluid">

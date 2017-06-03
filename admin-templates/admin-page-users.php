@@ -2,7 +2,7 @@
 ====================
 ADMIN PAGE USERS
 ====================
-@package eadic-theme
+@package javiergarval-theme
 -->
 
 <div class="wrap">

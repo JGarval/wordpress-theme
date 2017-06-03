@@ -2,7 +2,7 @@
 ====================
 ADMIN PAGE THEME
 ====================
-@package eadic-theme
+@package javiergarval-theme
 -->
 
 <div class="wrap">
@@ -10,9 +10,9 @@ ADMIN PAGE THEME
 
 	<?php settings_errors(); ?>
 
-	<form method="post" action="options.php" class="eadic-general-form">
-		<?php settings_fields( 'eadic__general' ); ?>
-		<?php do_settings_sections( 'eadic-admin-theme' ); ?>
+	<form method="post" action="options.php" class="javiergarval-general-form">
+		<?php settings_fields( 'javiergarval__general' ); ?>
+		<?php do_settings_sections( 'javiergarval-admin-theme' ); ?>
 		<?php submit_button(); ?>
 	</form>
 </div>

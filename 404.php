@@ -3,7 +3,7 @@
 ====================
 404 ERROR
 ====================
-@package eadic-theme
+@package javiergarval-theme
 */
 
 get_header(); ?>

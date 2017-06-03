@@ -1,0 +1,337 @@
+/*
+====================
+javiergarval CUSTOM CSS
+====================
+This is the template for the javiergarval CSS.
+
+@package javiergarval-theme
+*/
+/* Generico */
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+.btn-xlarge {
+	padding: 18px 28px;
+	font-size: 22px;
+	line-height: normal;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+div.row.text-center, div.row.text-left { width: 100%; margin: auto; }
+span.line { border-top: 3px solid #111; display: block; top: 65px; position: relative; }
+button.btn-primary, a.btn-primary { background-color: #2B3E4F; border-color: #2B3E4F; }
+.no-space { padding: 0px; }
+.margin-top { margin-top: 5px; }
+
+/*
+	HEADER
+	==============================
+*/
+.botoncallme { position: fixed; z-index: 99; bottom: 50px; right: 50px; background: url(../images/botoncallme.png) no-repeat center center; height: 101px; width: 100px; background-size: cover; }
+/* Contact */
+
+@media (max-width: 858px) {
+	.header-menu-contact-container { display: none; }
+}
+@media (min-width: 858px) {
+	div.sm__title-banner { top: 100px; }
+}
+@media (max-width: 1058px) {
+	.margin-column { margin-bottom: 30px; }
+}
+@media (max-width: 1172px) {
+#javiergarval-navigation-menu { height: 100vh; width: 100vw; position: absolute; background-color: #FFF; z-index: 99999999999999; top: 69px;}
+}
+
+span.dashicons-email, span.dashicons-phone { font-size: 30px; margin-right: 20px; margin-top: -5px; padding: 0;}
+.navbar-right-flag { margin-left: 10px; margin-right: 5px; border-radius: 10%; }
+div.header-menu-contact-container { height: 30px; padding-top: 5px; font-size: 12px; background-color: #2C3E4F; color: white; }
+span.es-flag { height: 30px; width: 30px; }
+span.co-flag { height: 50px; width: 50px; }
+span.pe-flag { height: 50px; width: 50px; }
+.contact__mail { margin-right: 10px; color: #FFF; }
+.contact__mail:hover { color: #83B5D0; }
+/* Navigation */
+div.header-menu-navigation-container { height: 70px; width: 100%; background-color: transparent; }
+ul#menu-menu-de-navegacion>li.menu-item>a { height: 70px; color: #282C32; text-transform: uppercase; font-size: 14px; padding-top: 25px; top: -1px; width: 100%; text-align: center; }
+ul#menu-menu-de-navegacion>li.menu-item>a:hover { background-color: #2C3E4F; color: #FFF; }
+div.header-menu-navigation-container>div.navbar-header>ul>li>a.navbar-brand { height: 70px; margin: 0; }
+div.header-menu-navigation-container>div.navbar-header>ul>li>a.navbar-brand:hover { background-color: #FFF; }
+.navbar-brand { background: url(../images/header-logo.png) no-repeat center center; width: 440px; background-size: 100%; left: 40px; position: absolute;}
+ul.nav.navbar-nav.navbar-left { margin: 0; }
+
+a.navbar-brand>img { margin-top: -10px; padding: 0; width: 440px; height: 70px; }
+div.header-banner-left-column { color: #FFF; }
+div.header-banner-right-column { color: #FFF; }
+
+.pre-sticky { border-bottom: #2C3E50; background-color: #FFF; }
+.post-sticky { border-bottom: none; background-color: transparent; }
+
+.icon-bar { background-color: #2C3E4F; }
+
+@media (max-width: 500px) {
+	.navbar-brand { background: url(../images/logo-javiergarval-escuela-tecnica.png) no-repeat center center; width: 200px; background-size: 100%; }
+}
+@media (max-width: 800px) {
+	.header-banner-right-column { display: none; }
+}
+
+/* Insertar icono de búsqueda */
+li#menu-item-102 > a { background: url(../images/icons/javiergarval-search.svg) no-repeat center center; background-size: 25px; color: transparent !important; }
+li#menu-item-102 > a:hover { background: url(../images/icons/javiergarval-search-white.svg) no-repeat center center; background-size: 25px; color: transparent !important; }
+
+/* Form */
+.form-group_style { background-color: #2B3E4F; border-radius: 5px; color: #FFF; padding: 10px; }
+
+/* After JS */
+nav.navbar-fixed-top { background-color: #FFF;}
+/*
+	CONTENT
+	==============================
+*/
+/*	Contact Form */
+@media (min-width: 800px) {
+	.display-on-mobile { display: none; }
+}
+/* 	Banner */
+.content__banner { min-height: 500px; width: 100%; background: url(../images/banners/header/header-banner-1280.png) no-repeat center center; -webkit-background-size: 100% 100%; -moz-background-size: 100% 100%; -o-background-size: 100% 100%; background-size: 100% 100%; }
+@media (max-width: 1280px) {
+	.content__banner { min-height: 547px; width: 100vw; background: url(../images/banners/header/header-banner-1280.png) no-repeat center center; -webkit-background-size: 100% 100%; -moz-background-size: 100% 100%; -o-background-size: 100% 100%; background-size: 100% 100%;}
+}
+@media (max-width: 1046px) {
+	.content__banner { min-height: 500px; width: 100vw; background: url(../images/banners/header/header-banner-980.png) no-repeat center center; -webkit-background-size: 100% 100%; -moz-background-size: 100% 100%; -o-background-size: 100% 100%; background-size: 100% 100%;}
+}
+@media (max-width: 670px) {
+	.content__banner { min-height: 400px; width: 100vw; background: url(../images/banners/header/header-banner-670.png) no-repeat center center; -webkit-background-size: 100% 100%; -moz-background-size: 100% 100%; -o-background-size: 100% 100%; background-size: 100% 100%;}
+}
+@media (max-width: 360px) {
+	.content__banner { min-height: 500px; width: 100vw; background: url(../images/banners/header/header-banner-360.png) no-repeat center center; -webkit-background-size: 100% 100%; -moz-background-size: 100% 100%; -o-background-size: 100% 100%; background-size: 100% 100%;}
+}
+/*	Scholarship Phases */
+div.content-about-container { margin: 0; padding: 0; width: 100%; }
+div.about__thumbnail { min-height: 150px; padding: 20px; margin: 20px auto; border: none; }
+div.about__img-circle { height: 100px; width: 100px; color: #AAB2A0; margin: auto; background-color: #60CE97; border: 3px solid #2B3E4F; }
+div.content-about-container-column>a {}
+div.content-about-container-column>a:hover { text-decoration: none; }
+h2.about__title { text-transform: uppercase; margin-top: 50px; }
+div.about__img-circle>p { font-size: 50px; font-weight: bold; color: #2C3E50; margin-top: 10px; }
+
+/*	Admission Form */
+div.content-form-container { margin: 0px auto; width: 100%; }
+div.content-form-container>button { text-transform: uppercase; }
+div.content-form-container>button:hover { background-color: #5D83AB; }
+
+/* About */
+.about__image { width: 200px; }
+.about__thumbnail-title { font-size: 20px; }
+.about__thumbnail-content { font-size: 15px; }
+
+/* Carousel */
+div.content-carousel-container { padding: 0; min-height: 60vh; margin: 30px auto; }
+div.carousel.slide { margin: 0; padding: 0; }
+div.item { height: 60vh; width: 100%; padding: 0; margin: 0; }
+h2.carousel__title { text-transform: uppercase; margin-top: 50px; }
+
+/*	Categories */
+div.content-category-container { background-color: #89C1DA; margin: 0px auto; padding: 0; min-height: 250px; }
+div.category__thumbnail { max-height: 200px; padding: 20px; margin: 20px 0; border: none; background-color: transparent; }
+div.category__thumbnail>div.caption>h3 { font-size: 16px; color: #FFFFFF; }
+div.category__img-circle { height: 100px; width: 100px; margin: auto; background-color: #FFFFFF; border: 3px solid #2B3E4F; }
+div.content-category-container-column>a {}
+div.content-category-container-column>a:hover { text-decoration: none; }
+h2.category__title { text-transform: uppercase; margin-top: 50px; }
+
+/*	Metodology */
+div.metodology__thumbnail { max-height: 200px; padding: 5px; margin: 20px 0; border: none; }
+div.metodology__thumbnail>div.caption>h3 { font-size: 16px; }
+div.metodology__img-circle { height: 100px; width: 100px; color: #AAB2A0; margin: auto; background-color: #282C33; }
+div.content-metodology-container-column>a {}
+div.content-metodology-container-column>a:hover { text-decoration: none; }
+h2.metodology__title { text-transform: uppercase; margin-top: 50px; }
+.metodology__banner { height: 500px; width: 100%; background: url(../images/banner-metodologia2.png); -webkit-background-size: 100% 100%; -moz-background-size: 100% 100%; -o-background-size: 100% 100%; background-size: 100% 100%; }
+@media (max-width: 980px) {
+	.metodology__banner { background: url(../images/banner-metodologia-980.png) no-repeat round; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+}
+@media (min-width: 500px) {
+	.show-on-500px { display: none; }
+	.not-show { display: block; }
+}
+
+@media (max-width: 500px) {
+	.show-on-500px { display: block; }
+	.not-show { display: none; }
+}
+.container-metodologia { position: absolute; top: 50px; left: 50px; }
+
+/*	Testimonies */
+div.content-testimony-container {  }
+h2.testimony__title { text-transform: uppercase; margin-top: 50px; }
+div.testimony__row { margin: 50px auto; }
+div.testimony__video { margin: 20px auto; }
+
+/*	Supporters */
+div.content-supporters-container {}
+div.supporters__row {}
+div.supporters__container {}
+h2.supporters__title { text-transform: uppercase; margin-top: 50px; }
+
+/*
+	ARCHIVE-MASTER
+	========================================
+*/
+.archive-master-title-area { text-transform: uppercase; border-bottom: 3px solid #2B3E4F; font-size: 30px; }
+div.archive-master-thumbnail {  min-height: 331px; padding: 20px; margin: 20px auto; border: 3px solid #2B3E4F; }
+div.archive-master-container>a:hover { text-transform: none; }
+div.archive-master-title>h2 { border-bottom: 2px solid #2B3E4F; color: #2B3E4F; font-size: 20px; }
+div.archive-master-title-master { color: #2B3E4F; min-height: 101px; font-size: 16px; margin: 20px auto; }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	div.archive-master-title-master { min-height: 170px;!Important }
+}
+@media screen and (max-width: 991px) {
+		div.archive-master-title-master { min-height: 110px;!Important }
+}
+.master__img-circle { height: 100px; width: 100px; color: #AAB2A0; margin: auto; background-color: #FFF; border: 3px solid #2B3E4F; }
+.btn-default { padding-bottom: 0px; left: 0; }
+.area__title { margin-top: 50px; }
+
+/* Ingeniería Civil e Infraestructuras */
+.ingenieria-civil-e-infraestructuras:hover { background-color: #FFB857; }
+.ingenieria-civil-e-infraestructuras .archive-master-button>button { background-color: #FFB857; border-radius: 3px;}
+.ingenieria-civil-e-infraestructuras .archive-master-icon .master__img-circle { background-color: #FFB857; }
+#master88:hover .archive-master-button>button { background-color: #FFF; }
+#master80:hover .archive-master-button>button { background-color: #FFF; }
+#master62:hover .archive-master-button>button { background-color: #FFF; }
+#master61:hover .archive-master-button>button { background-color: #FFF; }
+#master46:hover .archive-master-button>button { background-color: #FFF; }
+#master45:hover .archive-master-button>button { background-color: #FFF; }
+#master44:hover .archive-master-button>button { background-color: #FFF; }
+#master34:hover .archive-master-button>button { background-color: #FFF; }
+#master31:hover .archive-master-button>button { background-color: #FFF; }
+#master30:hover .archive-master-button>button { background-color: #FFF; }
+#master17:hover .archive-master-button>button { background-color: #FFF; }
+/* Agua, Energía y Medio Ambiente */
+.agua-energia-y-medio-ambiente:hover { background-color: #6BCE91; }
+.agua-energia-y-medio-ambiente .archive-master-button>button { background-color: #6BCE91; border-radius: 3px;}
+.agua-energia-y-medio-ambiente .archive-master-icon .master__img-circle { background-color: #6BCE91; }
+#master84:hover .archive-master-button>button { background-color: #FFF; }
+#master83:hover .archive-master-button>button { background-color: #FFF; }
+#master68:hover .archive-master-button>button { background-color: #FFF; }
+#master67:hover .archive-master-button>button { background-color: #FFF; }
+#master66:hover .archive-master-button>button { background-color: #FFF; }
+#master65:hover .archive-master-button>button { background-color: #FFF; }
+/* Gestión de Proyectos e Infraestructuras */
+.gestion-de-proyectos-e-infraestructuras:hover { background-color: #8DC3DF; }
+.gestion-de-proyectos-e-infraestructuras .archive-master-button>button { background-color: #8DC3DF; border-radius: 3px;}
+.gestion-de-proyectos-e-infraestructuras .archive-master-icon .master__img-circle { background-color: #8DC3DF; }
+#master64:hover .archive-master-button>button { background-color: #FFF; }
+#master63:hover .archive-master-button>button { background-color: #FFF; }
+/* Arquitectura y Edificación */
+.arquitectura-y-edificacion:hover { background-color: #F25F5C; }
+.arquitectura-y-edificacion .archive-master-button>button { background-color: #F25F5C; border-radius: 3px;}
+.arquitectura-y-edificacion .archive-master-icon .master__img-circle { background-color: #F25F5C; }
+#master81:hover .archive-master-button>button { background-color: #FFF; }
+#master60:hover .archive-master-button>button { background-color: #FFF; }
+/* Informática y Telecomunicaciones */
+.informatica-y-telecomunicaciones:hover { background-color: #70C1B3; }
+.informatica-y-telecomunicaciones .archive-master-button>button { background-color: #70C1B3; border-radius: 3px;}
+.informatica-y-telecomunicaciones .archive-master-icon .master__img-circle { background-color: #70C1B3; }
+#master86:hover .archive-master-button>button { background-color: #FFF; }
+#master87:hover .archive-master-button>button { background-color: #FFF; }
+
+/*
+	SINGLE-MASTER
+	========================================
+*/
+div.single-master-container { width: 100%; margin: 0; padding: 0; }
+div.single-master-title-container { height: 200px; font-size: 20px; }
+div.single-master-title { margin: auto; padding: auto; color: #2C3E4F; }
+div.sm__content-title>h3 { color: #89C1DA; }
+div.sm__title-banner { min-height: 210px; width: 100%; opacity: .5; position: absolute; margin: 0;}
+div.sm__info { color: #89C1DA; }
+
+.single-master-info-container { margin: 30px auto 10px auto; }
+.sidebar__button { width: 100%; }
+.column-scholarship { font-size: 30px; }
+.bloque-4-precio-beca { font-size: 50px; font-weight: bold; }
+.bloque-info { max-height: 220px; }
+
+
+/*
+	PAGE-INFORMACION
+	========================================
+*/
+div.informacion__content-title>h3 { color: #89C1DA; }
+div.informacion__title-banner { min-height: 210px; width: 100%; opacity: .5; position: absolute; margin: 0;}
+.informacion-container-fluid { min-height: 70px; background: #2C3E50; color:#ffffff; width: 100%;  }
+
+/*
+	PAGE-METODOLOGIA
+	========================================
+*/
+div.metodologia__content-title>h3 { color: #89C1DA; }
+div.metodologia__title-banner { min-height: 210px; width: 100%; opacity: .5; position: absolute; margin: 0;}
+.metodologia-container-fluid { min-height: 70px; background: #2C3E50; color:#ffffff; width: 100%;  }
+
+/*
+	PAGE-FAQ
+	========================================
+*/
+div.faq__content-title>h3 { color: #89C1DA; }
+.faq-container-fluid { min-height: 70px; background: #2C3E50; color:#ffffff; width: 100%; }
+
+/*
+	PAGE-SEARCH
+	========================================
+*/
+div.search__content-title>h3 { color: #89C1DA; }
+.search-container-fluid { min-height: 70px; background: #2C3E50; color:#ffffff; width: 100%; }
+
+/*
+	PAGE-PAGO
+	========================================
+*/
+div.pago__content-title>h3 { color: #89C1DA; }
+div.pago-master-thumbnail {  min-height: 400px; padding: 20px; margin: 20px auto; border: 3px solid #2B3E4F; }
+.pago-container-fluid { min-height: 70px; background: #2C3E50; color:#ffffff; width: 100%; }
+
+/*
+	PAGE-CONTACTO
+	========================================
+*/
+div.contacto__content-title>h3 { color: #89C1DA; }
+.contacto-container-fluid { min-height: 70px; background: #2C3E50; color:#ffffff; width: 100%; }
+.mapa-spain, .mapa-colombia { height: 50%; width: 100%; padding: 10px; }
+
+/*
+	PAGE-PREINSCRIPCION
+	========================================
+*/
+div.preinscripcion__container-title>h3 { color: #89C1DA; }
+.preinscripcion-container-fluid { min-height: 70px; background: #2C3E50; color:#ffffff; width: 100%; }
+.mapa-spain, .mapa-colombia { height: 50%; width: 90%; padding: 10px; }
+
+/*
+	FOOTER
+	========================================
+*/
+.footer-container-fluid { background-color: #2B3E4F; color: #FFF; padding: 40px; margin-top: 50px; }
+.footer-list { list-style: none; }
+.footer-list>a>li { margin: 10px 0;  }
+.footer-list-icon { margin-right: 10px; }
+.footer-list>a { color: #FFF; }
+.up-button { position: fixed; bottom: 50px; left: 50px; border: 2px solid #2B3E4F; border-radius: 2px; padding: 5px; }
+.up-button>a:hover { text-decoration: none; }
+
+
+
+/* Cookies */
+#cookies { background-color: #2B3E4F; position: fixed; bottom: 0px; color: white; min-height: 50px; z-index: 9999999999; border-top: 3px solid white; display: block; }
+.cookies-star { font-size: 70px; }
+.cookies-p { padding: 15px;  }
+.cookies-x { font-size: 40px; }
+.cookies-x:hover { cursor: pointer; }

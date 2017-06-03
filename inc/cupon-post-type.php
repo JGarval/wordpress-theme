@@ -4,7 +4,7 @@
 	CUPON POST TYPE
 	====================
 
-	@package eadic-theme
+	@package javiergarval-theme
 */
 $masteres = $wpdb->get_col(
     "SELECT post_title FROM `wp_posts` WHERE `post_type`='master'"
@@ -21,18 +21,18 @@ foreach ($masteres as $master ) {
 add_action( 'init', 'custom_post_type_cupon' );
 function custom_post_type_cupon() {
 	$labels = array(
-		'name'					=> _x( 'Cupones', 'Post Type General Name', 'eadic-theme' ),
-		'singular_name'			=> _x( 'Cupón', 'Post Type Singular Name', 'eadic-theme' ),
-		'add_new'				=> __( 'Añadir nuevo', 'eadic-theme' ),
-		'add_new_item'			=> __( 'Añadir nuevo cupón', 'eadic-theme' ),
-		'edit_item'				=> __( 'Editar cupón', 'eadic-theme' ),
-		'new_item'				=> __( 'Nuevo cupón', 'eadic-theme' ),
-		'view_item'				=> __( 'Ver cupón', 'eadic-theme' ),
-		'search_items'			=> __( 'Buscar cupones', 'eadic-theme' ),
-		'not_found'				=> __( 'No se han encontrado cupones', 'eadic-theme' ),
-		'not_found_in_trash'	=> __( 'No se han encontrado cupones en la Papelera', 'eadic-theme' ),
-		'parent_item_colon'		=> __( 'Cupones superiores', 'eadic-theme' ),
-		'all_items'				=> __( 'Todos los cupones', 'eadic-theme' ),
+		'name'					=> _x( 'Cupones', 'Post Type General Name', 'javiergarval-theme' ),
+		'singular_name'			=> _x( 'Cupón', 'Post Type Singular Name', 'javiergarval-theme' ),
+		'add_new'				=> __( 'Añadir nuevo', 'javiergarval-theme' ),
+		'add_new_item'			=> __( 'Añadir nuevo cupón', 'javiergarval-theme' ),
+		'edit_item'				=> __( 'Editar cupón', 'javiergarval-theme' ),
+		'new_item'				=> __( 'Nuevo cupón', 'javiergarval-theme' ),
+		'view_item'				=> __( 'Ver cupón', 'javiergarval-theme' ),
+		'search_items'			=> __( 'Buscar cupones', 'javiergarval-theme' ),
+		'not_found'				=> __( 'No se han encontrado cupones', 'javiergarval-theme' ),
+		'not_found_in_trash'	=> __( 'No se han encontrado cupones en la Papelera', 'javiergarval-theme' ),
+		'parent_item_colon'		=> __( 'Cupones superiores', 'javiergarval-theme' ),
+		'all_items'				=> __( 'Todos los cupones', 'javiergarval-theme' ),
 		//'archives'				=>
 		//'insert_into_item'		=>
 		//'uploaded_to_this_item'	=>
@@ -49,7 +49,7 @@ function custom_post_type_cupon() {
 
 	$args = array(
 		'labels'				=> $labels,
-		'description'			=> __( 'Cupones para los másteres de EADIC.' ),
+		'description'			=> __( 'Cupones para los másteres de javiergarval.' ),
 		'public'				=> true,
 		'exclude_from_search'	=> false,
 		'publicly_queryable'	=> true,

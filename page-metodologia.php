@@ -3,7 +3,7 @@
 ====================
 PAGE - METODOLOGIA
 ====================
-@package eadic-theme
+@package javiergarval-theme
 */
 
 /*

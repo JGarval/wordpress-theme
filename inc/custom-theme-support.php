@@ -4,16 +4,16 @@
 CUSTOM THEME SUPPORT
 ====================
 
-@package eadic-theme
+@package javiergarval-theme
 */
 
 /*
 	CUSTOM HEADER
 	========================================
 */
-function eadic_custom_header() {
+function javiergarval_custom_header() {
     $args = array(
-        'default-image'				=> get_template_directory_uri() . 'images/eadic_custom_header.png',
+        'default-image'				=> get_template_directory_uri() . 'images/javiergarval_custom_header.png',
         'default-text-color' 		=> '000',
         'flex-width'         		=> false,
         'flex-height'        		=> false,
@@ -27,7 +27,7 @@ function eadic_custom_header() {
     );
     add_theme_support( 'custom-header', $args );
 }
-add_action( 'after_setup_theme', 'eadic_custom_header' );
+add_action( 'after_setup_theme', 'javiergarval_custom_header' );
 
 // Backwards Compatibility
 global $wp_version;
@@ -42,7 +42,7 @@ endif;
 	CUSTOM BACKGROUND
 	========================================
 */
-function eadic_custom_background() {
+function javiergarval_custom_background() {
 	$args = array(
 		'default-color'          => '',
 		'default-image'          => '',
@@ -55,13 +55,13 @@ function eadic_custom_background() {
 	);
 	add_theme_support( 'custom-background', $args );
 }
-add_action( 'after_setup_theme', 'eadic_custom_background' );
+add_action( 'after_setup_theme', 'javiergarval_custom_background' );
 
 /*
 	CUSTOM LOGO
 	========================================
 */
-function eadic_custom_logo() {
+function javiergarval_custom_logo() {
 	add_theme_support(
 		'custom-logo', 
 		array(

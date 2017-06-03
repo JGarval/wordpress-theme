@@ -1,24 +1,8 @@
-<?php
- $user = 'apoyoweb';
- $pass = 'Welcome2016';
-try {
-  $db = new PDO( 'mysql:host=localhost;dbname=118542wordpress20160830153326;charset=utf8', $user, $pass );
-  $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-  $sql = "SELECT * FROM `eadic_pedidos` LIMIT 0 , 30";
-  $query = $db->prepare( $sql );
-  $query->execute();
-  $results = $query->fetchAll( PDO::FETCH_ASSOC );
-} catch(PDOException $e) {
- echo "Connection failed: " . $e->getMessage();
-}
-?>
-
 <!--
 ====================
 ADMIN PAGE PRODUCTS
 ====================
-@package eadic-theme
+@package javiergarval-theme
 -->
 
 <style>
@@ -78,7 +62,7 @@ tr:nth-child(even) {
    ?>
 </table>
 
-<form id="submitForm" method="post" action="options.php" class="eadic-products-form">
-  <?php settings_fields( 'eadic__products' ); ?>
-  <?php do_settings_sections( 'eadic-admin-products' ); ?>
+<form id="submitForm" method="post" action="options.php" class="javiergarval-products-form">
+  <?php settings_fields( 'javiergarval__products' ); ?>
+  <?php do_settings_sections( 'javiergarval-admin-products' ); ?>
 </form>
