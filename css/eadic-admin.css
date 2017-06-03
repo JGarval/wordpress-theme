@@ -1,0 +1,102 @@
+/*
+====================
+ADMIN CSS
+====================
+
+@package eadic-theme
+*/
+
+img.header-logo { height: 100px; width: 100px; }
+.eadic-admin-menu-banner {
+  min-height: 48vh;
+  width: 35%;
+  position: absolute;
+  right: 50px;
+  padding: 20px;
+  border: 2px solid #DDDDDD;
+  margin-top: 52px;
+}
+ul.tab { list-style-type: none; margin: 0; margin-top: 20px; padding: 0; background-color: #f1f1f1; }
+/* Float the list items side by side */
+ul.tab li { float: left; }
+/* Style the links inside the list items */
+ul.tab li a { display: inline-block; color: black; text-align: center; padding: 14px 16px; text-decoration: none; transition: 0.3s; font-size: 17px; }
+/* Change background color of links on hover */
+ul.tab li a:hover { background-color: #ddd; }
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active { background-color: #ccc; }
+/* Style the tab content */
+.tabcontent { display: none; padding: 50px 12px 0px; }
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+.column {
+  background-color: #DDDDDD;
+  border-radius: 3px;
+  padding: 5px 0px;
+  height: auto;
+  min-height: 20px;
+  width: 100%;
+  line-height: 30px;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-align: center;
+  cursor: move;
+  margin-bottom: 5px;
+
+}
+.column header {
+  text-align: center;
+
+}
+.column.over {
+  border: 2px dashed #000;
+}
+.tab-content-title {
+  float: left;
+  width: 100%;
+}
+
+#phone-flag-spain {
+  background: url(../images/flags/es-flag.png) no-repeat center left;
+  padding-left: 30px;
+  background-size: 25px 20px;
+}
+#phone-flag-colombia {
+  background: url(../images/flags/co-flag.png) no-repeat center left;
+  padding-left: 30px;
+  background-size: 25px 20px;
+}
+#phone-flag-peru {
+  background: url(../images/flags/pe-flag.png) no-repeat center left;
+  padding-left: 30px;
+  background-size: 25px 20px;
+}
+#phone-flag-whatsapp {
+  background: url(../images/icons/whatsapp-icon.svg) no-repeat center left;
+  padding-left: 30px;
+  background-size: 25px 20px;
+}
+/*table {
+    border-collapse: collapse;
+    width: 98%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}*/
